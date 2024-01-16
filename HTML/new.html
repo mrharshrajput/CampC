@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login and Registration Form</title>
+
+</head>
+<body>
+    <h2 style="text-align: center;">Welcome to our Page</h2>
+    <h2>Login Form</h2>
+    <img src="img.jpg" alt="Happy" width ="500" height="500" style="float: right;">
+    <form id="loginForm" action="/submit_login" method="post">
+        <label for="loginEmail">Email:</label>
+        <br>
+        <input type="email" id="loginEmail" name="loginEmail">
+        <br>
+        <label for="loginPassword">Password:</label>
+        <br>
+        <input type="password" id="loginPassword" name="loginPassword">
+        <br>
+        <input type="submit" value="Login">
+        <br>
+        <button onclick="document.getElementById('registrationForm').style.display='block';">Register</button>
+    </form>
+   <!-- <form id="registrationForm" action="/submit_registration" method="post" style="display: none;">
+        <label for="regFname">First Name:</label>
+        <br>
+        <input type="text" id="regFname" name="regFname">
+        <br>
+        <label for="regLname">Last Name:</label>
+        <br>
+        <input type="text" id="regLname" name="regLname">
+        <br>
+        <label for="regEmail">Email:</label>
+        <br>
+        <input type="email" id="regEmail" name="regEmail">
+        <br>
+        <label for="regPassword">Password:</label>
+        <br>
+        <input type="password" id="regPassword" name="regPassword"><br>
+        <label for="regDob">Date of Birth:</label>
+        <br>
+        <input type="date" id="regDob" name="regDob">
+        <br>
+        <label for="regPhone">Phone Number:</label>
+        <br>
+        <input type="tel" id="regPhone" name="regPhone">
+        <br>
+        <input type="submit" value="Register">
+    </form>-->
+</body>
+</html>

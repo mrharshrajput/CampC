@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The Difference Between innerText and  innerHTML</h2>
+
+<p id="myP">   This element has extra spacing   and contains <span>a span element</span>.</p>
+
+<button onclick="getinnerHTML()">Get innerHTML</button>
+<button onclick="getinnerText()">Get innerText</button>
+
+
+<pre id="demo"></pre>
+
+<script>
+function getinnerText() {
+  let text = document.getElementById("myP").innerText;
+  document.getElementById("demo").innerText = text;
+}
+
+function getinnerHTML() {
+  let text = document.getElementById("myP").innerHTML;
+  document.getElementById("demo").innerText = text;
+}
+
+
+</script>
+
+</body>
+</html>
